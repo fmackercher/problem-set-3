@@ -20,7 +20,7 @@ function changeColor() {
         //Change the text of the color using the span id color-name
         document.getElementById('color-name').innerHTML = '# A020F0';
     }
-    else if (clickDiv.style.color == 'rgb(160, 32, 240)') {
+    else if (clickDiv.style.backgroundColor == 'rgb(160, 32, 240)') {
         //change the background color using JS
         clickDiv.style.backgroundColor = 'rgb(240, 128, 128)';
         //Change the text of the color using the span id color-name
