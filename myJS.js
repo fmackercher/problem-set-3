@@ -13,6 +13,7 @@ clickDiv.addEventListener('click', changeColor);
 
 function changeColor() {
     //Write a condition determine what color it should be changed to
+    console.log(clickDiv.style.backgroundColor);
     if (clickDiv.style.backgroundColor !== 'rgb(160, 32, 240)') {
         //change the background color using JS
         clickDiv.style.backgroundColor = 'rgb(160, 32, 240)';
