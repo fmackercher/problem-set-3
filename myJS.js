@@ -13,7 +13,7 @@ clickDiv.addEventListener('click', changeColor);
 
 function changeColor() {
     //Write a condition determine what color it should be changed to
-    if (clickDiv.style.color !== 'rgb(160, 32, 240)') {
+    if (clickDiv.style.backgroundColor !== 'rgb(160, 32, 240)') {
         //change the background color using JS
         clickDiv.style.backgroundColor = 'rgb(160, 32, 240)';
 
@@ -22,7 +22,7 @@ function changeColor() {
     }
     else if (clickDiv.style.color == 'rgb(160, 32, 240)') {
         //change the background color using JS
-        clickDiv.style.backgroundcolor = 'rgb(240, 128, 128)';
+        clickDiv.style.backgroundColor = 'rgb(240, 128, 128)';
         //Change the text of the color using the span id color-name
         document.getElementById('color-name').innerHTML = '# F08080';
 
